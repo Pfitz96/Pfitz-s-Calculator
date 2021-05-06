@@ -4,7 +4,7 @@ from math import sqrt
 root = Tk()
 root.title("Pfitz's Calculator")
 
-display = Entry(root, width=21, borderwidth=3, bg="medium aquamarine", font=('Calibri', 22))
+display = Entry(root, width=21, borderwidth=3, bg="medium aquamarine", font=('Calibri', 22), justify="right")
 display.grid(row=0, column=0, columnspan=5, padx=10, pady=10)
 
 m = 0
